@@ -30,7 +30,7 @@ app.use('/api/questions', questionRoutes);
 app.use('/api/exams', examRoutes);
 app.use('/api/payments', paymentRoutes);
 
-app.get('/', (req, res) => res.send('Exam Prep Backend (Paystack) is running'));
+app.get('/', (req, res) => res.send('Engrhenrytech Exam Prep Backend (Paystack) is running'));
 
 app.use(errorHandler);
 
