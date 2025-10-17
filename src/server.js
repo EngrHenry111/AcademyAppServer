@@ -35,5 +35,5 @@ app.get('/', (req, res) => res.send('Engrhenrytech Exam Prep Backend (Paystack) 
 app.use(errorHandler);
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server is up and running on port ${PORT}`);
 });

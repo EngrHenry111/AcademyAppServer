@@ -13,7 +13,7 @@ const seed = async ()=>{
   await connectDB();
   await Question.deleteMany({});
   await Question.insertMany(sampleQuestions);
-  const existing = await User.findOne({ email: 'tutor@example.com' });
+  const existing = await User.findOne({ email: 'henryengrakpan@gmail.com' });
   if (!existing) {
     const hash = await bcrypt.hash('engrhenrytech', 10);
     await User.create({ name: 'EngrHenryTech', email: 'henryengrakpan@gmail.com', password: hash, role: 'tutor' });
